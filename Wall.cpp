@@ -1,0 +1,43 @@
+/******************************************************************************
+** Program Filename: Wall.cpp
+** Author: Ben Johnson
+** Date: May 27, 2018
+** Description: Ants vs Some Bees
+** Inpupt: user input.
+** Output: results printed to file or terminal depending on user's choice.
+******************************************************************************/
+
+#include <string>
+#include <iostream>
+#include "Wall.h"
+#include "Bee.h"
+
+using namespace std;
+
+/******************************************************************************
+** Function: Constructor
+** Description: creates new object.
+** Parameters: None
+** Pre-Conditions: None
+** Post-Conditions: object created, variables initialized.
+******************************************************************************/
+Wall::Wall()
+{
+  damage = 0;
+  armor = 4;
+  name = "WLL";
+}
+
+/******************************************************************************
+** Function: Attack
+** Description: attacks bees according to ant type.
+** Parameters: Bee** bee: the array of bees.
+**  int** num_bees: the number of bees on each square.
+**  int index: the square the ant is on.
+** Pre-Conditions: Board initialized.
+** Post-Conditions: bees attacked by ant.
+******************************************************************************/
+void Wall::attack(Bee** bees, int** num_bees, int index)
+{
+  //does not attack
+}
