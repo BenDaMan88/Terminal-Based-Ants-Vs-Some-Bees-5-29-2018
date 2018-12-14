@@ -55,9 +55,6 @@ Some example output:
 
       Which type of ant would you like to add? (1-8): 5
 
-      Where would you like to place this ant? (1 for far left, 10 for far right): ^[[28~3
-      invalid input. give valid input: 3
-
       Queen Ant                            Food: 41                                Hive
       =================================================================================
       |       |       |S_T    |       |       |       |       |NIN    |       |       |
